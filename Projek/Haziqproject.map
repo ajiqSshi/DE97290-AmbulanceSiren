@@ -1,0 +1,78 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Fri Apr 23 17:52:03 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000008    program   0x000002
+                   .org_2       code   0x000018    program   0x000510
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x000009      
+                            0x000018    0x000527      
+            1304 out of 33048 program addresses used, program memory utilization is 3%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   AGAIN1   0x000128    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                   AGAIN2   0x00012c    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                   AGAIN3   0x00032a    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                   AGAIN4   0x00032e    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                   BUZZER   0x0000e4    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                  BUZZER1   0x0000f2    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                    CLEDL   0x00003e    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                    CLEDR   0x000048    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                    DELAY   0x000124    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                   DELAY1   0x000326    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                  LED_ON1   0x000052    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                  LED_ON2   0x0000ca    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                  MovLEDL   0x00002e    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                  MovLEDR   0x000036    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                 MoveLEDL   0x00001a    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                 MoveLEDR   0x000024    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                   OFFLED   0x0000c4    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                    ONLED   0x0000b8    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                    START   0x000100    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                      SW1   0x00010e    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                      SW2   0x000114    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                      SW3   0x00011a    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 MoveLEDL   0x00001a    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                 MoveLEDR   0x000024    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                  MovLEDL   0x00002e    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                  MovLEDR   0x000036    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                    CLEDL   0x00003e    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                    CLEDR   0x000048    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                  LED_ON1   0x000052    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                    ONLED   0x0000b8    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                   OFFLED   0x0000c4    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                  LED_ON2   0x0000ca    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                   BUZZER   0x0000e4    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                  BUZZER1   0x0000f2    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                    START   0x000100    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                      SW1   0x00010e    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                      SW2   0x000114    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                      SW3   0x00011a    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                    DELAY   0x000124    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                   AGAIN1   0x000128    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                   AGAIN2   0x00012c    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                   DELAY1   0x000326    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                   AGAIN3   0x00032a    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+                   AGAIN4   0x00032e    program     static C:\Users\Haziq\Documents\Lab Microp\Projek\Haziqproject.asm
+
+
